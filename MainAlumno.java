@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class MainAlumno {
     public static void main(String[] args) {
         ArrayList<Alumno> listaAlumnos = new ArrayList<>();
         listaAlumnos.add(new Alumno("001", "Juan Pérez", "20230001"));
