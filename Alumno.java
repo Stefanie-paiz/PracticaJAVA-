@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Alumno {
+public class Alumno  {
  private String codigo;
  private String nombre;
  private String carnet;
@@ -24,15 +24,5 @@ public class Alumno {
  ", Nombre='" + nombre + '\'' +
  ", Carnet='" + carnet + '\'' +
  '}';
- }
-}
-public class Ejercicio2 {
- public static void main(String[] args) {
- ArrayList<Alumno> listaAlumnos = new ArrayList<>();
- listaAlumnos.add(new Alumno("001", "Juan Pérez", "20230001"));
- listaAlumnos.add(new Alumno("002", "Ana Gómez", "20230002"));
- listaAlumnos.add(new Alumno("003", "Luis Ramírez", "20230003"));
- for (Alumno alumno : listaAlumnos) {System.out.println(alumno);
- }
  }
 }
